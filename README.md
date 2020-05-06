@@ -12,7 +12,7 @@ Using the "/name?name=" route you can change World to the name of your choice.
 ## Setup
 
 Build dependencies
-The go programming langauge must be installed and available at version 1.12 or newer.
+The go programming langauge must be installed and available at version 1.10 or newer.
 With go installed, run `go get github.com/bradfitz/gomemcache` to install the only dependency outside of Go's standard library.
 
 ## Runtime dependencies
