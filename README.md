@@ -30,11 +30,18 @@ The Memcache server location is configurable wth the MEMCACHE_URL environment va
 For example:
 ```
 MEMCACHE_URL="localhost:11211"
-
+```
 
 ## Launch
 
+First build the application.
+```
 go build
+```
 
+Launch with defaults or specify environment variables.
+
+```
 ./cachegreeter
 PORT=:7777 MEMCACHE_URL=localhost:11212 ./cachegreeter
+```
