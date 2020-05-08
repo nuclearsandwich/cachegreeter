@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t cachegreeter:1.0 .
+docker build -t cachegreeter:latest .
