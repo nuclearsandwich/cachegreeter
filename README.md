@@ -12,8 +12,7 @@ Using the "/name?name=" route you can change World to the name of your choice.
 ## Setup
 
 Build dependencies
-The go programming langauge must be installed and available at version 1.10 or newer.
-With go installed, run `go get github.com/bradfitz/gomemcache` to install the only dependency outside of Go's standard library.
+The go programming langauge must be installed and available at version 1.18 or newer.
 
 ## Runtime dependencies
 
@@ -35,6 +34,7 @@ MEMCACHE_URL="localhost:11211"
 ## Launch
 
 First build the application.
+Dependencies will be fetched on first build.
 ```
 go build
 ```
